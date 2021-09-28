@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 15px 4px 10px;
+}
+.dflex {
+    display: flex;
+    align-items: center;
+}
+.item {
+    padding: 10px 10px;
+
+}
+.item:hover {
+    border: 1px solid #fff;
+    border-radius: 2px;
+    margin: -1px;
+}
+a {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+}
+a:hover {
+    border: 1px solid #fff;
+    margin: -1px;
+    border-radius: 3px;
+}
+a span {
+    font-size: 14px;
+    margin-left: -10px;
+}
+p {
+    font-size: 12px;
+    line-height: 10px; 
+}
+.slides img {
+    vertical-align: middle;
+    width: 100%;
+    height: 526px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  .slideshow-container {
+  
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: #f9ca24
+  }
+  
+  .container {
+    position: relative;
+    max-width: 200px; /* Maximum width */
+    margin: 6px; /* Center it */
+    float: left;
+    width: 33.33%;
+  }
+  .product-list {
+      background-color: #dfe6e9;
+      padding: 3em;
+  }
+  .product-list .card {
+      background-color: white;
+      border-radius: 10px;
+      padding: 1em;
+      box-shadow: 0px 10px 5px #b2bec3;
+      text-align: center;
+      font-family: 'poppins';
+      
+  }
+  .card .title{
+      font-size: 18px;
+      font-weight: bold;
+  }
+  .card img{
+      max-width: 100%;
+      border-radius: 5px;
+      margin-bottom: 0.5em;
+  }
+ .buy-button{
+     background-color: #f9ca24;
+     border: none;
+     padding: 1em;
+     border-radius: 5px;
+     font-weight: bold;
+     width: 100%;
+     text-align: center;
+ }     
+ .buy-button:hover{
+     box-shadow: 0px 5px 5px #b2bec3;
+     
+}     
+ .product-list{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     grid-column-gap: 20px;
+     grid-row-gap: 20px;
+ }
+ .align-center{
+     text-align: center;
+     margin-top: 5%;
+ }  
+ .down{
+	max-width: 1760;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 200px 70px;
+}
+.down{
+    max-width: 1760px;
+    margin: auto;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 120px;
+    
+    
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+    
+}
+.footer-col h4::before{
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    box-sizing: border-box;
+    width: 50px;
+    height: 2px;
+}
+
+    
+}
+.footer-col ul li a{
+    font-style: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+
+}
+  
+.item i {
+    padding: 0 5px;
+}
+nav input {
+    width: 760px;
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: #000
+}
+nav button {
+    padding: 10px 10px;
+    color: #000;
+    font-size: 17px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    cursor: pointer;
+}
+nav .all {
+    background: #ddd;
+    border-radius: 5px 0 0 5px;
+}
+nav .search {
+    padding: 10px 17px;
+    margin: -2px;
+    background: rgb(247, 155, 80);
+    border-radius: 0 5px 5px 0;
+}
+.box:hover{
+    border: 4px solid rgb(247,155,80);
+    box-shadow: 0 0 3px 0 rgb(247, 155, 80);
+}
+.subnavigation {
+    background-color: #232f3e;
+    padding: 20px 15px;
+}
+.submenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+li .submenu:hover,
+li .submenu.active {
+    color: coral;
+}
+
+ul li{
+    list-style: none;
+    font-weight: 500;
+    padding: 1px 5px;
+    font-size: 14px;
+}
+nav .submenu i{
+    font-size: 16px;
+}
+.li{
+    margin: -5px;
+}
+.bg {
+    position: relative;
+    padding: 6px 6px;
+    margin: -5px 0;
+    margin-right: 10px;
+    background-color: rgb(247, 155, 80);
+}
+section {
+ font color:rgb(12, 11, 11)
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: top  center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+#home span{
+    color:coral;
+}
+#new .one img{
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#new .one .details button{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #2a2a2a;
+    background: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid #2a2a2a;
+    padding: 2.5px;
+    transition: 0.3s ease;
+}
+#new .one .details button:hover{
+    color: rgb(236, 106, 106);
+    border-bottom: 1px rgb(228, 115, 134);
+}
+button {
+    font-size: 0.8rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color: #f9ca24;
+    color: aliceblue;
+    padding: 13px 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+}
+button:hover{
+    background-color: #f9ca24;
+}
+.row {
+    margin: 40px;
+
+    float: left;
+}
+
